@@ -2,7 +2,7 @@
 Mark a lead to Closed and Converted If a matching contact is present in Salesforce or Auto convert a lead if an existing contact is present
 we must mark the lead to converted status if we find a similar contact in the contact object. So that the marketing team will follow the same person once, not twice. Along with that once a matching contact is found, then according to the data present in the related opportunity records an order and order item need to be created for the contact.
 
-To achieve the lead-to-contact conversion automation we need write access on two system fields on the Lead object which are not enabled by default.
+To achieve the lead-to-contact conversion automation, we need write access to two system fields on the Lead object, which are not enabled by default.
 
 Fields are mentioned below:
 ConvertedContactId & ConvertedAccountId
